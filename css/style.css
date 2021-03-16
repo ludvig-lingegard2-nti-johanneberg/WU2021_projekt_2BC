@@ -98,16 +98,158 @@
 .wrapper2 {
     display: grid;
     background-color: rgba(183,201,187);
+    grid-template-areas: 
+    'nav'
+    'img'
+    'art'
+    'foo'
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 6% 39% 45% 10%;
+    width: 100vw;
+    height: 98vh;
+    grid-gap: 5px;
+}
+
+.wrapper2 nav {
+    grid-area: nav;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: black;
+}
+
+.wrapper2 img {
+    grid-area: img;
+    margin: 5%;
+}
+
+.wrapper2 article {
+    grid-area: art;
+    margin: 5%;
+}
+
+.titelOmAteljeLouise {
+    font-size: 230%;
+}
+
+.wrapper2 footer {
+    grid-area: foo;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 70%;
+    color: rgba(85,93,96);
 }
 
 .wrapper3 {
     display: grid;
     background-color: rgba(183,201,187);
+    grid-template-areas: 
+    'na na na'
+    'd1 d1 d1'
+    'd2 d2 d2'
+    'fo fo fo'
+    ;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 2% 40% 48% 10%;
+    width: 100vw;
+    height: 300vh;
+    grid-gap: 0px;
+}
+
+.wrapper3 nav {
+    grid-area: na;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: black;
+}
+
+.ForstaBildPartiet {
+    grid-area: d1;
+}
+
+.ForstaBildPartiet img {
+    height: 48vh;
+    width: 45vw;
+}
+
+.ForstaBildPartiet article {
+    font-size: 200%;
+}
+
+.AndraBildPartiet {
+    grid-area: d2;
+}
+
+.AndraBildPartiet img {
+    height: 48vh;
+    width: 45vw;
+}
+
+.wrapper3 footer {
+    grid-area: fo;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 70%;
+    color: rgba(85,93,96);
 }
 
 .wrapper4 {
     display: grid;
     background-color: rgba(183,201,187);
+    grid-template-areas: 
+    'na na na na'
+    'd1 d1 d1 d1'
+    'ar ar ar ar'
+    'd2 d2 d2 d2'
+    'fo fo fo fo'
+    ;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 2% 41% 11% 38% 8%;
+    height: 300vh;
+    width: 100vw;
+}
+
+.wrapper4 nav{
+    grid-area: na;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: black;
+}
+
+.div1shop {
+    grid-area: d1;
+}
+
+.div1shop img {
+    height: 40vh;
+    width: 30vw;
+}
+
+.wrapper4 article {
+    grid-area: ar;
+}
+
+.div2shop {
+    grid-area: d2;
+}
+
+.div2shop img {
+    height: 40vh;
+    width: 30vw;
+}
+
+.wrapper4 footer {
+    grid-area: fo;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 70%;
+    color: rgba(85,93,96);
 }
 
 .wrapper5 {
