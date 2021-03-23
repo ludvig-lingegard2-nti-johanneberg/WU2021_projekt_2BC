@@ -153,7 +153,7 @@
     ;
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: 2% 40% 48% 10%;
-    width: 100vw;
+    width: 97.4vw;
     height: 300vh;
     grid-gap: 0px;
 }
@@ -168,6 +168,7 @@
 
 .ForstaBildPartiet {
     grid-area: d1;
+    margin: 14px;
 }
 
 .ForstaBildPartiet img {
@@ -175,12 +176,16 @@
     width: 45vw;
 }
 
-.ForstaBildPartiet article {
+.ForstaBildPartiet h1 {
     font-size: 200%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
 
 .AndraBildPartiet {
     grid-area: d2;
+    margin: 14px;
 }
 
 .AndraBildPartiet img {
@@ -208,9 +213,9 @@
     'fo fo fo fo'
     ;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 2% 41% 11% 38% 8%;
-    height: 300vh;
-    width: 100vw;
+    grid-template-rows: 2% 40% 14% 36% 8%;
+    height: 330vh;
+    width: 96vw;
 }
 
 .wrapper4 nav{
@@ -221,8 +226,17 @@
     background-color: black;
 }
 
+.shoptitel {
+    font-size: 200%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 10px;
+}
+
 .div1shop {
     grid-area: d1;
+    margin: 10px;
 }
 
 .div1shop img {
@@ -232,10 +246,40 @@
 
 .wrapper4 article {
     grid-area: ar;
+    margin: 10px;
+}
+
+.wrapper4 a {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.övretextshopsida {
+    font-size: 110%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.undretextshopsida {
+    font-size: 140%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.urvaltyger {
+    font-size: 110%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 .div2shop {
     grid-area: d2;
+    margin: 10px;
 }
 
 .div2shop img {
@@ -250,10 +294,89 @@
     justify-self: center;
     font-size: 70%;
     color: rgba(85,93,96);
+    margin: 10px;
 }
 
 .wrapper5 {
     display: grid;
     background-color: rgba(183,201,187);
+    grid-template-areas: 
+    'na'
+    'im'
+    'a1'
+    'a2'
+    'fo'
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 3.5% 20% 41.5% 29% 6%;
+    height: 200vh;
+    width: 97vw;
+}
+
+.wrapper5 nav {
+    grid-area: na;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    background-color: black;
+}
+
+.wrapper5 img {
+    grid-area: im;
+}
+
+.skrivmeddelande {
+    padding: 16px;
+}
+
+input[type=text], input[type=email], input[type=topic], input[type=meddelande] {
+    width: 94%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.skickameddelande {
+    background-color: #E6787C;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.wrapper5 div {
+    grid-area: a1;
+}
+
+.wrapper5 article {
+    grid-area: a2;
+}
+
+.kontaktamig h1 {
+    font-size: 200%;
+}
+
+.wrapper5 footer{
+    grid-area: fo;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-size: 70%;
+    color: rgba(85,93,96);
 }
 
