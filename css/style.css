@@ -14,7 +14,7 @@
         '.. fo fo ..'
         ;
         grid-template-columns: 30% 20% 20% 30%;
-        grid-template-rows: 13% 32% 22% 24% 5%;
+        grid-template-rows: 17% 29% 21% 24% 5%;
         background-color: rgba(183,201,187);
         height: 100vh;
     }
@@ -23,11 +23,9 @@
         grid-area: na;
     }
 
-    .nav h2 {
+    .nav img {
         margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
+        height: 8vh;
     }
 
     .nav a {
@@ -119,11 +117,9 @@
         grid-area: na;
     }
 
-    .nav h2 {
+    .nav img {
         margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
+        height: 8vh;
     }
 
     .nav a {
@@ -191,8 +187,8 @@
         '.. fo fo fo fo ..'
         ;
         grid-template-columns: 30% 10% 10% 10% 10% 30%;
-        grid-template-rows: 10% 32% 48% 10%;
-        height: 110vh;
+        grid-template-rows: 14% 30% 46% 10%;
+        height: 130vh;
         width: 100vw;
         background-color: rgba(183,201,187);
     }
@@ -201,11 +197,9 @@
         grid-area: na;
     }
 
-    .nav h2 {
+    .nav img {
         margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
+        height: 8vh;
     }
 
     .nav a {
@@ -284,8 +278,8 @@
         '.. fo fo fo fo ..'
         ;
         grid-template-columns: 30% 10% 10% 10% 10% 30%;
-        grid-template-rows: 6% 50% 10% 29% 5%;
-        height: 190vh;
+        grid-template-rows: 9% 48.5% 10% 27.5% 5%;
+        height: 200vh;
         width: 100vw;
         background-color: rgba(183,201,187);
     }
@@ -294,11 +288,9 @@
         grid-area: na;
     }
 
-    .nav h2 {
+    .nav img {
         margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
+        height: 8vh;
     }
 
     .nav a {
@@ -399,8 +391,8 @@
         '.. fo fo ..'
         ;
         grid-template-columns: 30% 20% 20% 30%;
-        grid-template-rows: 10% 83% 7%;
-        height: 57vh;
+        grid-template-rows: 19% 75% 7%;
+        height: 67vh;
         width: 97.65vw;
         background-color: rgba(183,201,187);
         grid-gap: 20px;
@@ -410,11 +402,9 @@
         grid-area: na;
     }
 
-    .nav h2 {
+    .nav img {
         margin: 5px;
-        display: flex;
-        justify-content: center;
-        align-self: center;
+        height: 8vh;
     }
 
     .nav a {
@@ -489,8 +479,6 @@
         font-size: 70%;
         color: rgba(85,93,96);
     }
-
-
 }
 
 
@@ -499,12 +487,12 @@
     .wrapper1 {
         display: grid;
         grid-template-areas: 
-        'na na na' 
-        'd1 d1 d1'
-        'a1 a1 a1'
-        'd2 d2 d2'
-        'fo fo fo';
-        grid-template-columns: 45% 35% 20%;
+        'na' 
+        'd1'
+        'a1'
+        'd2'
+        'fo';
+        grid-template-columns: 100%;
         grid-template-rows: 4.3% 25.7% 30% 30% 10%;
         height: 160vh;
         width: 96.5vw;
@@ -521,16 +509,10 @@
         background-color: rgb(20,20,20);
     }
 
-    .nav h2 {
+    .nav img {
         align-self: center;
         margin: 7px;
-    }
-
-    .nav h2 a {
-        text-decoration: none;
-        color: white;
-        font-family: Garamond;
-        font-weight: 100;
+        height: 7vh;
     }
 
     .nav div {
@@ -645,10 +627,6 @@
         color: rgb(47, 52, 54);
     }
 
-    
-
-
-
     .wrapper2 {
         display: grid;
         background-color: rgba(183,201,187);
@@ -665,9 +643,28 @@
         grid-gap: 5px;
     }
 
-    .wrapper2 img {
+    .nav {
+        display: grid;
+        grid-template-columns: 90% 10%;
+        grid-template-rows: 100%;
+        grid-area: na;
+        color: white;
+        background-color: rgb(20,20,20);
+    }
+
+    .nav img {
+        align-self: center;
+        margin: 7px;
+        height: 7vh;
+    }
+
+    .nav div {
+        align-self: center;
+    }
+
+    .saxbild {
         grid-area: im;
-        margin: 5%;
+        margin: 26px;
     }
 
     .wrapper2 article {
@@ -824,7 +821,6 @@
         justify-content: center;
     }
 
-
     .undretextshopsida {
         font-size: 140%;
         display: flex;
@@ -864,20 +860,17 @@
         background-color: rgba(183,201,187);
         grid-template-areas: 
         'na'
-        'im'
         'a1'
         'a2'
         'fo'
         ;
         grid-template-columns: 100%;
-        grid-template-rows: 4.5% 3% 56.5% 30% 6%;
-        height: 150vh;
+        grid-template-rows: 5% 59% 30% 6%;
+        height: 140vh;
         width: 96.4vw;
     }
 
-    .wrapper5 img {
-        grid-area: im;
-    }
+
 
     input[type=text], input[type=email], input[type=topic], input[type=meddelande] {
         width: 94%;
