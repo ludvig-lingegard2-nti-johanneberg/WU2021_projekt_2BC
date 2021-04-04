@@ -2,6 +2,498 @@
     margin: 0%;
 }
 
+@media screen and (min-width: 768px) {
+
+    .wrapper1 {
+        display: grid;
+        grid-template-areas: 
+        '.. na na ..'
+        '.. d1 d1 ..'
+        '.. d2 d2 ..'
+        '.. d3 d3 ..'
+        '.. fo fo ..'
+        ;
+        grid-template-columns: 30% 20% 20% 30%;
+        grid-template-rows: 13% 32% 22% 24% 5%;
+        background-color: rgba(183,201,187);
+        height: 100vh;
+    }
+
+    .nav {
+        grid-area: na;
+    }
+
+    .nav h2 {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Garamond;
+        font-weight: 100;
+        font-size: 120%;
+    }
+
+    .menu {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .indexdiv1 {
+        grid-area: d1;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .indexdiv1 img{
+        display: flex;
+
+    }
+
+    .indexdiv1 article{
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .indexarticle1 {
+        grid-area: d2;
+        font-family: Cambria;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .indexarticle1 p {
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .indexdiv2 {
+        grid-area: d3;
+        font-family: Cambria;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .indexdiv2 p {
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .wrapper1 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+    }
+
+    .wrapper2 {
+        display: grid;
+        background-color: rgba(183,201,187);
+        grid-template-areas: 
+        '.. na ..'
+        '.. im ..'
+        '.. ar ..'
+        '.. fo ..'
+        ;
+        grid-template-columns: 30% 40% 30%;
+        grid-template-rows: 7% 39% 44% 10%;
+        width: 99.6vw;
+        height: 98vh;
+        grid-gap: 5px;
+    }
+
+    .nav {
+        grid-area: na;
+    }
+
+    .nav h2 {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Garamond;
+        font-weight: 100;
+        font-size: 120%;
+    }
+
+    .menu {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+    }
+    
+
+    .wrapper2 img {
+        grid-area: im;
+        margin: 5%;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+    }
+
+    .wrapper2 article {
+        grid-area: ar;
+        margin: 5%;
+        color: rgb(47, 52, 54);
+        font-family: Cambria;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .titelOmAteljeLouise {
+        font-size: 200%;
+        color: black;
+    }
+
+    .wrapper2 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+    }
+
+    #menu-button .material-icons {
+        display: none;
+    }
+
+    #menu-button {
+        display: none;
+    }
+
+    .wrapper3 {
+        display: grid;
+        grid-template-areas: 
+        '.. na na na na ..'
+        '.. d1 d1 d1 d1 ..'
+        '.. d2 d2 d2 d2 ..'
+        '.. fo fo fo fo ..'
+        ;
+        grid-template-columns: 30% 10% 10% 10% 10% 30%;
+        grid-template-rows: 10% 32% 48% 10%;
+        height: 110vh;
+        width: 100vw;
+        background-color: rgba(183,201,187);
+    }
+
+    .nav {
+        grid-area: na;
+    }
+
+    .nav h2 {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Garamond;
+        font-weight: 100;
+        font-size: 120%;
+    }
+
+    .menu {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .ForstaBildPartiet {
+        grid-area: d1;
+        font-family: Cambria;
+        font-weight: 100;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .ForstaBildPartiet p {
+        font-size: 120%;
+    }
+
+    .ForstaBildPartiet img {
+        height: 25vh;
+        width: 9vw;
+    }
+
+    .ForstaBildPartiet h1 {
+        font-weight: 100;
+        font-family: Cambria;
+    }
+
+    .AndraBildPartiet {
+        grid-area: d2;
+        font-family: Cambria;
+        font-weight: 100;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .AndraBildPartiet p {
+        font-size: 120%;
+    }
+
+    .AndraBildPartiet img {
+        height: 25vh;
+        width: 9vw;
+    }
+
+    .wrapper3 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+    }
+
+    .wrapper4 {
+        display: grid;
+        grid-template-areas: 
+        '.. na na na na ..'
+        '.. d1 d1 d1 d1 ..'
+        '.. ar ar ar ar ..'
+        '.. d2 d2 d2 d2 ..'
+        '.. fo fo fo fo ..'
+        ;
+        grid-template-columns: 30% 10% 10% 10% 10% 30%;
+        grid-template-rows: 6% 50% 10% 29% 5%;
+        height: 190vh;
+        width: 100vw;
+        background-color: rgba(183,201,187);
+    }
+    
+    .nav {
+        grid-area: na;
+    }
+
+    .nav h2 {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Garamond;
+        font-weight: 100;
+        font-size: 120%;
+    }
+
+    .menu {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .div1shop {
+        grid-area: d1;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .div1shop h1 {
+        font-weight: 100;
+        font-family: Cambria;
+    }
+
+    .ovrebilder {
+        height: 40vh;
+        width: 9vw;
+    }
+
+    .undrebilder {
+        height: 25vh;
+        width: 9vw;
+    }
+
+    .wrapper4 article {
+        grid-area: ar;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .wrapper4 article a {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: black;
+    }
+
+    .övretextshopsida {
+        font-size: 120%;
+        font-family: Cambria;
+    }
+
+    .undretextshopsida {
+        font-size: 120%;
+        font-family: Cambria;
+    }
+
+    .urvaltyger {
+        font-size: 120%;
+        font-family: Cambria;
+    }
+
+    .div2shop {
+        grid-area: d2;
+        text-align: center;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .div2shop img {
+        height: 25vh;
+        width: 9vw;
+    }
+
+    .wrapper4 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+    }
+
+    .wrapper5 {
+        display: grid;
+        grid-template-areas: 
+        '.. na na ..'
+        '.. fm ar ..'
+        '.. fm ar ..'
+        '.. fo fo ..'
+        ;
+        grid-template-columns: 30% 20% 20% 30%;
+        grid-template-rows: 10% 83% 7%;
+        height: 57vh;
+        width: 97.65vw;
+        background-color: rgba(183,201,187);
+        grid-gap: 20px;
+    }
+
+    .nav {
+        grid-area: na;
+    }
+
+    .nav h2 {
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav a {
+        text-decoration: none;
+        color: black;
+        font-family: Garamond;
+        font-weight: 100;
+        font-size: 120%;
+    }
+
+    .menu {
+        display: flex;
+        align-self: center;
+        justify-content: space-around;
+    }
+
+    .wrapper5 form {
+        grid-area: fm;
+        margin: 60px;
+    }
+
+    .wrapper5 form h1 {
+        font-weight: 100;
+        font-family: Cambria;
+    }
+
+    input[type=text], input[type=email], input[type=topic], input[type=meddelande] {
+        width: 94%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: white;
+        outline: none;
+    }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    .skickameddelande {
+        background-color: #E6787C;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .kontaktamig {
+        grid-area: ar;
+        margin: 60px;
+    }
+
+    .kontaktamig h1 {
+        font-weight: 100;
+        font-family: Cambria;
+    }
+
+    .wrapper5 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+    }
+
+
+}
+
+
 @media screen and (max-width: 768px){
 
     .wrapper1 {
@@ -13,9 +505,9 @@
         'd2 d2 d2'
         'fo fo fo';
         grid-template-columns: 45% 35% 20%;
-        grid-template-rows: 5% 25% 30% 30% 10%;
+        grid-template-rows: 4.3% 25.7% 30% 30% 10%;
         height: 160vh;
-        width: 96.8vw;
+        width: 96.5vw;
         grid-gap: 0px;
         background-color: rgba(183,201,187);
     }
@@ -25,6 +517,66 @@
         grid-template-columns: 90% 10%;
         grid-template-rows: 100%;
         grid-area: na;
+        color: white;
+        background-color: rgb(20,20,20);
+    }
+
+    .nav h2 {
+        align-self: center;
+        margin: 7px;
+    }
+
+    .nav h2 a {
+        text-decoration: none;
+        color: white;
+        font-family: Garamond;
+        font-weight: 100;
+    }
+
+    .nav div {
+        align-self: center;
+    }
+
+    .indexdiv1 {
+        margin: 5%;
+        grid-area: d1;
+        grid-gap: 5px;
+        
+    }
+
+    .indexdiv1 img{
+        height: 22vh;
+        width: 85vw;
+    }
+
+    .indexdiv1 article{
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .indexarticle1{
+        margin: 5%;
+        grid-area: a1;
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .indexarticle1 article{
+        font-size: 50%;
+        color: rgb(47, 52, 54);
+    }
+
+
+    .indexdiv2 {
+        margin: 5%;
+        grid-area: d2;
+        font-size: 200%;
+        font-family: Cambria;
+    }
+
+    .indexdiv2 article{
+        font-size: 50%;
+        color: rgb(47, 52, 54);
     }
 
     .menu {
@@ -33,27 +585,41 @@
         background: rgba(183,201,187);
         position: fixed;
         top: 0;
-        left: -90vw;
+        left: -110vw;
         transition: left 0.3s;
         box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
         z-index: 10;
     }
-
+    
+    .menu a:link {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .menu a:visited {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        color: rgb(99,101,100);
+    }
+    
     .menu-button{
         cursor: pointer;
         display: inline;
         align-self: flex-start;
     }
-
+    
     .menu-button i.material-icons{
         font-size: 2.5rem;
     }
-
-
+    
+    
     .show{
         left: 0;
     }
-
+    
     .fade-layer{
         position: fixed;
         top: 0;
@@ -64,55 +630,305 @@
         display: none;
         z-index: 5;
     }
-
+    
     .fade-layer.visible{
         display: block;
     }
+    
+    
+    .footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgb(47, 52, 54);
+    }
 
-    .indexdiv1 {
-        margin: 5%;
-        grid-area: d1;
+    
+
+
+
+    .wrapper2 {
+        display: grid;
+        background-color: rgba(183,201,187);
+        grid-template-areas: 
+        'na'
+        'im'
+        'ar'
+        'fo'
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 7% 39% 44% 10%;
+        width: 100vw;
+        height: 98vh;
         grid-gap: 5px;
     }
 
-    .indexdiv1 div{
-        background: linear-gradient(to bottom
-        white 100%);
-    }
-
-    .indexdiv1 img{
-        height: 22vh;
-        width: 85vw;
-    }
-
-    .indexdiv1 article{
-        font-size: 200%;
-    }
-
-    .indexarticle1{
+    .wrapper2 img {
+        grid-area: im;
         margin: 5%;
-        grid-area: a1;
-        font-size: 200%;
     }
 
-    .indexarticle1 article{
-        font-size: 50%;
+    .wrapper2 article {
+        grid-area: ar;
+        margin: 5%;
+        color: rgb(47, 52, 54);
+        font-family: Cambria;
+    }
+
+    .titelOmAteljeLouise {
+        font-size: 200%;
+        color: black;
+    }
+
+    .wrapper2 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
         color: rgba(85,93,96);
     }
 
+    .wrapper3 {
+        display: grid;
+        background-color: rgba(183,201,187);
+        grid-template-areas: 
+        'na na na'
+        'd1 d1 d1'
+        'd2 d2 d2'
+        'fo fo fo'
+        ;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 2.25% 40% 47.75% 10%;
+        width: 97.4vw;
+        height: 300vh;
+        grid-gap: 0px;
+    }
 
-    .indexdiv2 {
-        margin: 5%;
+    .ForstaBildPartiet {
+        grid-area: d1;
+        margin: 14px;
+    }
+
+    .ForstaBildPartiet img {
+        height: 48vh;
+        width: 45vw;
+    }
+
+    .ForstaBildPartiet h1 {
+        font-size: 200%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        color: black;
+        font-family: Cambria;
+        font-weight: 100;
+    }
+
+    .ForstaBildPartiet p {
+        font-family: Cambria;
+        color: rgb(47, 52, 54);
+    }
+
+    .AndraBildPartiet {
         grid-area: d2;
-        font-size: 200%;
+        margin: 14px;
+        font-family: Cambria;
+        color: rgb(47, 52, 54);
     }
 
-    .indexdiv2 article{
-        font-size: 50%;
+    .AndraBildPartiet img {
+        height: 48vh;
+        width: 45vw;
+    }
+
+    .wrapper3 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
         color: rgba(85,93,96);
     }
 
-    .footer {
+    .wrapper4 {
+        display: grid;
+        background-color: rgba(183,201,187);
+        grid-template-areas: 
+        'na na na na'
+        'd1 d1 d1 d1'
+        'ar ar ar ar'
+        'd2 d2 d2 d2'
+        'fo fo fo fo'
+        ;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 2.05% 40% 14.95% 35% 8%;
+        height: 330vh;
+        width: 96.5vw;
+    }
+
+    .shoptitel {
+        font-size: 200%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 12px;
+        font-family: Cambria;
+        color: black;
+        font-weight: 100;
+    }
+
+    .div1shop {
+        grid-area: d1;
+        margin: 12px;
+    }
+
+    .div1shop img {
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .wrapper4 article {
+        grid-area: ar;
+        margin: 12px;
+        font-family: Cambria;
+        color: rgb(47, 52, 54);
+    }
+
+    .wrapper4 article a {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        margin: 12px;
+    }
+
+    .wrapper4 article a:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    .wrapper4 article a:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    .wrapper4 article a:hover {
+        color: rgb(99,101,100);
+    }
+    .övretextshopsida {
+        font-size: 110%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+
+    .undretextshopsida {
+        font-size: 140%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .urvaltyger {
+        font-size: 110%;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .div2shop {
+        grid-area: d2;
+        margin: 12px;
+    }
+
+    .div2shop img {
+        height: 40vh;
+        width: 30vw;
+    }
+
+    .wrapper4 footer {
+        grid-area: fo;
+        display: flex;
+        align-self: center;
+        justify-self: center;
+        font-size: 70%;
+        color: rgba(85,93,96);
+        margin: 12px;
+    }
+
+    .wrapper5 {
+        display: grid;
+        background-color: rgba(183,201,187);
+        grid-template-areas: 
+        'na'
+        'im'
+        'a1'
+        'a2'
+        'fo'
+        ;
+        grid-template-columns: 100%;
+        grid-template-rows: 4.5% 3% 56.5% 30% 6%;
+        height: 150vh;
+        width: 96.4vw;
+    }
+
+    .wrapper5 img {
+        grid-area: im;
+    }
+
+    input[type=text], input[type=email], input[type=topic], input[type=meddelande] {
+        width: 94%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: white;
+        outline: none;
+    }
+
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    .skickameddelande {
+        background-color: #E6787C;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+    .wrapper5 form div {
+        grid-area: a1;
+    }
+
+    .wrapper5 article {
+        grid-area: a2;
+    }
+
+    .kontaktamig h1 {
+        font-size: 200%;
+        color: black;
+        font-family: Cambria;
+    }
+
+    .kontaktamig p {
+        font-family: Cambria;
+        color: rgb(47, 52, 54);
+    }
+
+    .wrapper5 footer{
         grid-area: fo;
         display: flex;
         align-self: center;
@@ -121,306 +937,3 @@
         color: rgba(85,93,96);
     }
 }
-
-@media screen and(min-width:768px){
-    .wrapper1{
-        display: grid;
-        grid-template-areas: 
-        'na na na'
-        'd1 d1 d1'
-        'd2 d2 d2'
-        'fo fo fo'
-        ;
-        grid-template-columns: 25% 25% 50%;
-        grid-template-rows: 15% 35% 30% 20%;
-        height: 140vh;
-        width: 100vw;
-    }
-}
-
-
-.wrapper2 {
-    display: grid;
-    background-color: rgba(183,201,187);
-    grid-template-areas: 
-    'nav'
-    'img'
-    'art'
-    'foo'
-    ;
-    grid-template-columns: 100%;
-    grid-template-rows: 6% 39% 45% 10%;
-    width: 100vw;
-    height: 98vh;
-    grid-gap: 5px;
-}
-
-.wrapper2 nav {
-    grid-area: nav;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    background-color: black;
-}
-
-.wrapper2 img {
-    grid-area: img;
-    margin: 5%;
-}
-
-.wrapper2 article {
-    grid-area: art;
-    margin: 5%;
-}
-
-.titelOmAteljeLouise {
-    font-size: 230%;
-}
-
-.wrapper2 footer {
-    grid-area: foo;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    font-size: 70%;
-    color: rgba(85,93,96);
-}
-
-.wrapper3 {
-    display: grid;
-    background-color: rgba(183,201,187);
-    grid-template-areas: 
-    'na na na'
-    'd1 d1 d1'
-    'd2 d2 d2'
-    'fo fo fo'
-    ;
-    grid-template-columns: 33% 33% 33%;
-    grid-template-rows: 2% 40% 48% 10%;
-    width: 97.4vw;
-    height: 300vh;
-    grid-gap: 0px;
-}
-
-.wrapper3 nav {
-    grid-area: na;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    background-color: black;
-}
-
-.ForstaBildPartiet {
-    grid-area: d1;
-    margin: 14px;
-}
-
-.ForstaBildPartiet img {
-    height: 48vh;
-    width: 45vw;
-}
-
-.ForstaBildPartiet h1 {
-    font-size: 200%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-}
-
-.AndraBildPartiet {
-    grid-area: d2;
-    margin: 14px;
-}
-
-.AndraBildPartiet img {
-    height: 48vh;
-    width: 45vw;
-}
-
-.wrapper3 footer {
-    grid-area: fo;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    font-size: 70%;
-    color: rgba(85,93,96);
-}
-
-.wrapper4 {
-    display: grid;
-    background-color: rgba(183,201,187);
-    grid-template-areas: 
-    'na na na na'
-    'd1 d1 d1 d1'
-    'ar ar ar ar'
-    'd2 d2 d2 d2'
-    'fo fo fo fo'
-    ;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 2% 40% 14% 36% 8%;
-    height: 330vh;
-    width: 96vw;
-}
-
-.wrapper4 nav{
-    grid-area: na;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    background-color: black;
-}
-
-.shoptitel {
-    font-size: 200%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.div1shop {
-    grid-area: d1;
-    margin: 10px;
-}
-
-.div1shop img {
-    height: 40vh;
-    width: 30vw;
-}
-
-.wrapper4 article {
-    grid-area: ar;
-    margin: 10px;
-}
-
-.wrapper4 a {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    margin: 10px;
-}
-
-.övretextshopsida {
-    font-size: 110%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.undretextshopsida {
-    font-size: 140%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.urvaltyger {
-    font-size: 110%;
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.div2shop {
-    grid-area: d2;
-    margin: 10px;
-}
-
-.div2shop img {
-    height: 40vh;
-    width: 30vw;
-}
-
-.wrapper4 footer {
-    grid-area: fo;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    font-size: 70%;
-    color: rgba(85,93,96);
-    margin: 10px;
-}
-
-.wrapper5 {
-    display: grid;
-    background-color: rgba(183,201,187);
-    grid-template-areas: 
-    'na'
-    'im'
-    'a1'
-    'a2'
-    'fo'
-    ;
-    grid-template-columns: 100%;
-    grid-template-rows: 3.5% 20% 41.5% 29% 6%;
-    height: 200vh;
-    width: 97vw;
-}
-
-.wrapper5 nav {
-    grid-area: na;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 100%;
-    background-color: black;
-}
-
-.wrapper5 img {
-    grid-area: im;
-}
-
-.skrivmeddelande {
-    padding: 16px;
-}
-
-input[type=text], input[type=email], input[type=topic], input[type=meddelande] {
-    width: 94%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-
-input[type=text]:focus, input[type=password]:focus {
-    background-color: white;
-    outline: none;
-}
-
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-
-.skickameddelande {
-    background-color: #E6787C;
-    color: white;
-    padding: 16px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.wrapper5 div {
-    grid-area: a1;
-}
-
-.wrapper5 article {
-    grid-area: a2;
-}
-
-.kontaktamig h1 {
-    font-size: 200%;
-}
-
-.wrapper5 footer{
-    grid-area: fo;
-    display: flex;
-    align-self: center;
-    justify-self: center;
-    font-size: 70%;
-    color: rgba(85,93,96);
-}
-
