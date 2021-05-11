@@ -170,12 +170,8 @@
         color: rgba(85,93,96);
     }
 
-    #menu-button .material-icons {
-        display: none;
-    }
-
-    #menu-button {
-        display: none;
+    .material-icons {
+        display: none !important;
     }
 
     .wrapper3 {
@@ -231,8 +227,8 @@
     }
 
     .ForstaBildPartiet img {
-        height: 25vh;
-        width: 9vw;
+        height: 20vh;
+
     }
 
     .ForstaBildPartiet h1 {
@@ -255,8 +251,7 @@
     }
 
     .AndraBildPartiet img {
-        height: 25vh;
-        width: 9vw;
+        height: 20vh;
     }
 
     .wrapper3 footer {
@@ -493,8 +488,8 @@
         'd2'
         'fo';
         grid-template-columns: 100%;
-        grid-template-rows: 4.3% 25.7% 30% 30% 10%;
-        height: 160vh;
+        grid-template-rows: 5.7% 29.3% 22% 36% 7%;
+        height: 120vh;
         width: 96.5vw;
         grid-gap: 0px;
         background-color: rgba(183,201,187);
@@ -548,17 +543,18 @@
         color: rgb(47, 52, 54);
     }
 
-
     .indexdiv2 {
         margin: 5%;
         grid-area: d2;
         font-size: 200%;
         font-family: Cambria;
+        line-height: 1.0;
     }
 
     .indexdiv2 article{
         font-size: 50%;
         color: rgb(47, 52, 54);
+        line-height: 1.9;
     }
 
     .menu {
@@ -571,6 +567,11 @@
         transition: left 0.3s;
         box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
         z-index: 10;
+    }
+
+    .menu a {
+        display: flex;
+        padding: 50px;
     }
     
     .menu a:link {
@@ -596,7 +597,6 @@
     .menu-button i.material-icons{
         font-size: 2.5rem;
     }
-    
     
     .show{
         left: 0;
